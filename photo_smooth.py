@@ -42,8 +42,6 @@ class Propagator(nn.Module):
         content = self.__replication_padding(content,2)
         # content = content.astype(np.float64)/255
         B = np.reshape(B,(h1*w1,k))
-        print("content min:", content.min(), "max:", content.max())
-        print("B min:", B.min(), "max:", B.max())
         W = self.__compute_laplacian(content)
         W = W.tocsc()
         dd = W.sum(0)
@@ -61,12 +59,6 @@ class Propagator(nn.Module):
         V = V*(1-self.beta)
         V = V.reshape(h1,w1,k)
         V = V[2:2+h,2:2+w,:]
-        
-        print("B shape after crop:", B.shape)
-        print("content shape after resize:", content.shape)
-        
-        print("B min:", B.min(), "max:", B.max())
-        print("content min:", content.min(), "max:", content.max())
 
         img = Image.fromarray(np.uint8(np.clip(V * 255., 0, 255.)))
         return img
