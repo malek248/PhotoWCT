@@ -15,13 +15,13 @@ The implementation is demonstrated via a Jupyter Notebook that processes two dis
 
 ## Step by Step
 
-**Clone the repository:**
+**1. Clone the repository:**
 ```bash
 git clone https://github.com/malek248/PhotoWCT.git
 cd PhotoWCT
 ```
 
-**Install dependencies:**
+**2. Install dependencies:**
 Please install the following Python packages manually (if not already installed):
 
 - Python 3.x
@@ -34,6 +34,6 @@ Please install the following Python packages manually (if not already installed)
 For example, you can run:
 `pip install numpy opencv-python matplotlib torch pillow`
 
-**Run the Jupyter Notebook:**
+**3. Run the Jupyter Notebook:**
 Open `PhotoWCT_Pipeline.ipynb` in Jupyter Notebook or VSCode and run all cells.
 
