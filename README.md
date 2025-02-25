@@ -16,8 +16,10 @@ The implementation is demonstrated via a Jupyter Notebook that processes two dis
 ## Step by Step
 
 **Clone the repository:**
-`git clone https://github.com/malek248/PhotoWCT.git`
-`cd PhotoWCT`
+```bash
+git clone https://github.com/malek248/PhotoWCT.git
+cd PhotoWCT
+```
 
 **Install dependencies:**
 Please install the following Python packages manually (if not already installed):
