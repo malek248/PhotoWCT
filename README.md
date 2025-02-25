@@ -7,8 +7,9 @@ This repository contains an implementation of the paper **"A Closed-form Solutio
 
 The implementation is demonstrated via a Jupyter Notebook that processes two distinct content/style pairs, randomly selected from online image searches, to test the method on novel data. The notebook presents side-by-side comparisons of the original content and style images along with the final smoothed results, clearly illustrating the entire transformation process.
 
-<img src="https://raw.githubusercontent.com/malek248/PhotoWCT/blob/main/photos/results/results_1.png" width="800" > 
-<img src="https://raw.githubusercontent.com/malek248/PhotoWCT/blob/main/photos/results/results_2.png" width="800" > 
+![Stylized Result 1](https://raw.githubusercontent.com/malek248/PhotoWCT/main/photos/results/results_1.png)
+![Stylized Result 2](https://raw.githubusercontent.com/malek248/PhotoWCT/main/photos/results/results_2.png)
+
 
 **Note:** The scripts `photo_wct.py`, `photo_smooth.py`, and the model files were obtained from the original [FastPhotoStyle repository](https://github.com/NVIDIA/FastPhotoStyle). Slight modifications were made to `photo_smooth.py` to ensure compatibility with current libraries.
 
