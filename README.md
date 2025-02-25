@@ -17,13 +17,9 @@ The implementation is demonstrated through a Jupyter Notebook that processes two
 
 ## Installation
 
-1. **Clone the repository:**
+**Clone the repository:**
    ```bash
    git clone https://github.com/malek248/PhotoWCT.git
    cd PhotoWCT
-   
 
-1. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
 
